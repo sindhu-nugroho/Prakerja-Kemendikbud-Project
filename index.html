@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sindhu Nugroho</title>
+    <link rel="stylesheet" href="/dist/output.css">
+</head>
+<body>
+    <!-- Navbar Start -->
+    <header class="bg-transparent fixed top-0 left-0 w-full flex items-center z-10">
+        <div class="container">
+            <div class="flex items-center justify-between relative">
+                <div class="px-4">
+                    <a href="#homepage" class="font-bold text-lg text-educourse block py-6 w-1/2">
+                        <img src="dist/img/logo.png" alt="Logo Educourse.id">
+                    </a>
+                </div>
+                <div class="flex items-center px-4">
+                    <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden">
+                        <span class="hamburger-line transition duration-300 ease-in-out origin-top-left"></span>
+                        <span class="hamburger-line transition duration-300 ease-in-out"></span>
+                        <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"></span>
+                    </button>
+
+                    <nav id="nav-menu" class="hidden absolute py-5 bg-white shadow-lg rounded-lg 
+                    max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full 
+                    lg:shadow-none lg:rounded-none">
+                        <ul class="block lg:flex">
+                            <li class="group">
+                                <a href="#homepage" class="text-base text-dark py-2 mx-8 flex group-hover:text-yellow">
+                                    Homepage
+                                </a>
+                            </li>
+                            
+                            <li class="group">
+                                <a href="#about" class="text-base text-dark py-2 mx-8 flex group-hover:text-yellow">
+                                    About
+                                </a>
+                            </li>
+
+                            <li class="group">
+                                <a href="#blog" class="text-base text-dark py-2 mx-8 flex group-hover:text-yellow">
+                                    Blog
+                                </a>
+                            </li>
+
+                            <li class="group">
+                                <a href="#media" class="text-base text-dark py-2 mx-8 flex group-hover:text-yellow">
+                                    Media
+                                </a>
+                            </li>
+
+                            <li class="group">
+                                <a href="#contact" class="text-base text-dark py-2 mx-8 flex group-hover:text-yellow">
+                                    Contact
+                                </a>
+                            </li>
+
+                            <li class="group">
+                                <a href="/login.html" class="text-base text-dark py-2 mx-8 flex group-hover:text-yellow">
+                                    Login
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Navbar End -->
+    
+    <!-- Homepage Start -->
+    <section id="homepage" class="pt-36">
+        <div class="=container shadow-md">
+            <div class="flex flex-wrap">
+                <div class="w-full self-center px-4 lg:w-1/2">
+                    <h1 class="text-base font-semibold text-slate-500 md:text-xl">
+                        Hello Everyone
+                        <span class="block font-bold text-educourse text-4xl mt-1 lg:text-5xl">
+                            Mr Sindhu Nugroho
+                        </span>
+                    </h1>
+                    <br>
+                    <h2 class="font-medium text-yellow text-lg mb-5 lg:text-2xl">
+                        IT Engineer & STEM Teacher
+                    </h2>
+                    <p class="font-medium text-slate-500 mb-10 leading-relaxed">
+                        Wanna make a program? <br>
+                        Learn programming with me 
+                    </p>
+                    <a href="#" class="text-base font-semibold text-white bg-educourse py-3 px-8 
+                    rounded-full hover:shadow-lg hover:bg-yellow transition duration-300 ease-in-out">
+                        Contact me
+                    </a>
+                </div>
+                <div class="w-full self-end px-4 lg:w-1/2">
+                    <div class="relative mt-10 lg:mt-9 lg:right-0">
+                        <img src="dist/img/profile.png" 
+                        alt="Mr Sindhu Nugroho" 
+                        class="max-w-full mx-auto" 
+                        id="profile" />
+                        <span class="absolute bottom-40 -z-40 left-1/2 -translate-x-1/2 md:scale-125">
+                            <img src="dist/img/logo.png" alt="Background Logo" class="opacity-40">
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Homepage End -->
+
+    <!-- About Start -->
+    <section id="about" class="pt-36 pb-32 bg-educourse">
+        <div class="container">
+            <div class="flex flex-wrap">
+                <div class="w-full px-4 mb-10 lg:w-1/2">
+                    <h4 class="font-bold uppercase text-yellow text-lg mb-3">
+                        Tentang
+                    </h4>
+                    <h2 class="font-bold text-white text-3xl mb-5 max-w-md lg:text-4xl">Educourse.id</h2>
+                    <p class="font-medium text-base text-white mb-10 leading-relaxed max-w-xl lg:text-lg">
+                        Educourse.id merupakan sebuah startup pendidikan dalam pembelajaran STEM
+                        (Science,Technology, Engineering, Math) di Indonesia menggunakan teknologi AI(Artificial
+                        Intelegence) dan AR (Augmented Reality) untuk pembelajaran yang lebih baik dan
+                        menarik. Educourse.id juga adalah Startup Pendidikan di bawah akselerasi
+                        Indigo Telkom Indonesia dan Google for Startup. Sejak berdirinya,
+                        Educourse.id telah tersebar di 8 kota
+                        dengan sebaran peserta didik di 37 provinsi di Indonesia
+                    </p>  
+                </div>
+                <div class="w-full px-4 lg:w-1/2">
+                    <h3 class="font-semibold text-white text-2xl mb-4 lg:text-3xl lg:pt-10">Ikuti kami</h3>
+                    <p class="font-medium text-white mb-6 lg:text-lg">
+                        Untuk belajar STEM lebih lanjut
+                    </p>
+                    <div class="flex items-center">
+                        <!-- IG -->
+                        <a href="https://www.instagram.com/educourse.id?igsh=aWxzYzZ0Z2Y1cG82" 
+                        target="_blank"
+                        class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-white
+                        hover:border-yellow hover:bg-yellow hover:text-white"
+                        >
+                            <svg role="img" width="20" color="#ffffff" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <title>Instagram</title>
+                                <path d="M7.0301.084c-1.2768.0602-2.1487.264-2.911.5634-.7888.3075-1.4575.72-2.1228 1.3877-.6652.6677-1.075 1.3368-1.3802 2.127-.2954.7638-.4956 1.6365-.552 2.914-.0564 1.2775-.0689 1.6882-.0626 4.947.0062 3.2586.0206 3.6671.0825 4.9473.061 1.2765.264 2.1482.5635 2.9107.308.7889.72 1.4573 1.388 2.1228.6679.6655 1.3365 1.0743 2.1285 1.38.7632.295 1.6361.4961 2.9134.552 1.2773.056 1.6884.069 4.9462.0627 3.2578-.0062 3.668-.0207 4.9478-.0814 1.28-.0607 2.147-.2652 2.9098-.5633.7889-.3086 1.4578-.72 2.1228-1.3881.665-.6682 1.0745-1.3378 1.3795-2.1284.2957-.7632.4966-1.636.552-2.9124.056-1.2809.0692-1.6898.063-4.948-.0063-3.2583-.021-3.6668-.0817-4.9465-.0607-1.2797-.264-2.1487-.5633-2.9117-.3084-.7889-.72-1.4568-1.3876-2.1228C21.2982 1.33 20.628.9208 19.8378.6165 19.074.321 18.2017.1197 16.9244.0645 15.6471.0093 15.236-.005 11.977.0014 8.718.0076 8.31.0215 7.0301.0839m.1402 21.6932c-1.17-.0509-1.8053-.2453-2.2287-.408-.5606-.216-.96-.4771-1.3819-.895-.422-.4178-.6811-.8186-.9-1.378-.1644-.4234-.3624-1.058-.4171-2.228-.0595-1.2645-.072-1.6442-.079-4.848-.007-3.2037.0053-3.583.0607-4.848.05-1.169.2456-1.805.408-2.2282.216-.5613.4762-.96.895-1.3816.4188-.4217.8184-.6814 1.3783-.9003.423-.1651 1.0575-.3614 2.227-.4171 1.2655-.06 1.6447-.072 4.848-.079 3.2033-.007 3.5835.005 4.8495.0608 1.169.0508 1.8053.2445 2.228.408.5608.216.96.4754 1.3816.895.4217.4194.6816.8176.9005 1.3787.1653.4217.3617 1.056.4169 2.2263.0602 1.2655.0739 1.645.0796 4.848.0058 3.203-.0055 3.5834-.061 4.848-.051 1.17-.245 1.8055-.408 2.2294-.216.5604-.4763.96-.8954 1.3814-.419.4215-.8181.6811-1.3783.9-.4224.1649-1.0577.3617-2.2262.4174-1.2656.0595-1.6448.072-4.8493.079-3.2045.007-3.5825-.006-4.848-.0608M16.953 5.5864A1.44 1.44 0 1 0 18.39 4.144a1.44 1.44 0 0 0-1.437 1.4424M5.8385 12.012c.0067 3.4032 2.7706 6.1557 6.173 6.1493 3.4026-.0065 6.157-2.7701 6.1506-6.1733-.0065-3.4032-2.771-6.1565-6.174-6.1498-3.403.0067-6.156 2.771-6.1496 6.1738M8 12.0077a4 4 0 1 1 4.008 3.9921A3.9996 3.9996 0 0 1 8 12.0077"/>
+                            </svg>
+                        </a>
+                        <!-- IG -->
+
+                        <!-- Youtube -->
+                        <a href="https://www.youtube.com/@educourseofficial1908" 
+                        target="_blank"
+                        class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-white
+                        hover:border-yellow hover:bg-yellow hover:text-white">
+                            <svg role="img" width="20" color="#fafafa" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <title>YouTube</title>
+                                <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+                        </a>
+                        <!-- Youtube -->
+
+                        <!-- Website -->
+                        <a href="https://educourse.id/" 
+                        target="_blank"
+                        class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-white
+                        hover:border-yellow hover:bg-yellow hover:text-white">
+                            <svg role="img" width="20" color="#ffffff" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <title>Internet Explorer</title>
+                                <path d="M22.8 7.381c1.125-2.7 1.2-4.95-.15-6.3-1.5-1.499-5.1-1.05-8.924.75h-.45c-2.7 0-5.324.976-7.274 2.7-1.65 1.5-2.85 3.45-3.375 5.625.375-.45 2.475-2.925 4.875-4.275.075 0 .675-.375.675-.375-.075 0-1.2 1.125-1.425 1.35-5.25 5.4-8.324 13.574-5.924 15.973 1.574 1.575 4.424 1.2 7.724-.6 1.425.675 3 .975 4.724.975 2.25 0 4.35-.6 6.15-1.8 1.874-1.2 3.224-3.074 4.05-5.249h-5.85c-.75 1.425-2.475 2.4-4.275 2.4-2.55 0-4.65-2.1-4.724-4.5V13.83h15.298v-.225c0-.375.075-.825.075-1.124 0-1.8-.45-3.525-1.2-5.1zM2.477 22.38c-1.2-1.2-.824-3.524.6-6.299.675 1.875 1.8 3.525 3.225 4.725.45.375.975.75 1.5 1.05-2.4 1.274-4.35 1.5-5.325.524zm15.374-11.398H8.702v-.075c.15-2.325 2.324-4.35 4.874-4.35 2.4 0 4.35 1.875 4.5 4.35v.075zm4.574-4.2c-.45-.75-1.05-1.5-1.725-2.1a11.213 11.213 0 0 0-3.6-2.25c2.4-1.124 4.425-1.274 5.475-.224.825.975.75 2.624-.15 4.574 0 .075 0 .075 0 0 0 .075 0 .075 0 0z"/></svg>
+                        </a>
+                        <!-- Website -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About End -->
+
+    <!-- Blog Start -->
+    <section id="blog" class="pt-36 pb-32 bg-slate-100">
+        <div class="container">
+            <div class="w-full px-4">
+                <div class="max-w-xl mx-auto text-center mb-16">
+                    <h4 class="font-semibold text-lg text-yellow mb-2">Blog</h4>
+                    <h2 class="font-bold text-center text-3xl text-educourse mb-5">
+                        Event Terkini Educourse.id
+                    </h2>
+                </div>
+            </div>
+            <div class="flex flex-wrap">
+                <!-- Konten 1 Start -->
+                <div class="w-full px-4 lg:w-1/2 xl:1/3">
+                    <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
+                        <img src="dist/img/blog/kidi.jpeg" alt="Sosialisasi Kelas KIDI" class="w-full" />
+                        <div class="py-8 px-6">
+                            <h3>
+                                <p class="block mb-3 font-semibold text-xl text-educourse 
+                                hover:text-yellow truncate">
+                                    Teaching Factory Kelas Industri Digital
+                                </p>
+                            </h3>
+                                <p class="font-medium text-base text-secondary mb-4">
+                                    Sosialisasi kelas industri digital sekota Semarang dan Kendal pada bulan 
+                                    November 2023.
+                                </p>
+                                <a href="#" 
+                                    class="font-medium text-sm text-white bg-educourse py-3 px-4 rounded-lg 
+                                    hover:opacity-80"
+                                    target="_blank">
+                                    Read More ...
+                                </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Konten 1 End -->
+    
+                <!-- Konten 2 Start -->
+                <div class="w-full px-4 lg:w-1/2">
+                    <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
+                        <img src="dist/img/blog/ujikom.jpeg" alt="Ujikom SMK Tunas Harapan Pati" class="w-full" />
+                        <div class="py-8 px-6">
+                            <h3>
+                                <p class="block mb-3 font-semibold text-xl text-educourse 
+                                hover:text-yellow truncate">
+                                    Uji Kompetensi SMK Tunas Harapan Pati
+                                </p>
+                            </h3>
+                                <p class="font-medium text-base text-secondary mb-6">
+                                    Uji Kompetensi Pemrograman di SMK Tunas Harapan Pati pada Desember 2023.
+                                </p>
+                                <a href="#" 
+                                    class="font-medium text-sm text-white bg-educourse py-3 px-4 
+                                    rounded-lg hover:opacity-80"
+                                    target="_blank">
+                                    Read More ...
+                                </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Konten 2 End -->
+            </div>
+        </div>
+    </section>
+    <!-- Blog End -->
+
+    <!-- Media Start -->
+    <div class="slider" id="media">
+        <!-- list gambar -->
+        <div class="list">
+            <div class="item active">
+                <img src="dist/img/media/media1.jpeg">
+                <div class="content">
+                    <p class="text-yellow font-sans">Demo day</p>
+                    <h2 class="text-educourse font-sans font-bold">SMPN 44 Semarang</h2>
+                </div>
+            </div>
+            <div class="item">
+                <img src="dist/img/media/media2.jpeg">
+                <div class="content">
+                    <p class="text-educourse font-sans">Demo day</p>
+                    <h2 class="text-yellow font-sans font-bold">SDIT Mutiara Hati Semarang</h2>
+                </div>
+            </div>
+
+        </div>
+        <!-- Tombol Panah -->
+        <div class="arrows">
+            <button id="prev"><</button>
+            <button id="next">></button>
+        </div>
+        <!-- Tombol Panah -->
+        <div class="thumbnail">
+            <div class="item active">
+                <img src="dist/img/media/media1.jpeg">
+            </div>
+            <div class="item">
+                <img src="dist/img/media/media2.jpeg">
+            </div>  
+        </div>
+    </div>
+    <!-- Media End -->
+
+    <!-- Contact Start -->
+    <section id="contact" class="pt-36 pb-32">
+        <div class="container">
+            <div class="w-full px-4">
+                <div class="max-w-xl mx-auto text-center mb-16">
+                    <h4 class="font-semibold text-lg text-yellow mb-2">Contact</h4>
+                    <h2 class="font-bold text-center text-3xl text-educourse mb-5">
+                        Hubungi Kami
+                    </h2>
+                    <p class="font-medium text-md text-slate-500 md:text-lg">
+                        Untuk konsultasi atau bertanya mengenai program kami lebih lanjut.
+                    </p>
+                </div>
+            </div>
+
+            <form action="">
+                <div class="w-full lg:w-2/3 lg:mx-auto">
+                    <div class="w-full px-4 mb-8">
+                        <label for="name" class="text-base text-educourse">
+                            Nama
+                        </label>
+                        <input type="text" 
+                        id="fullName"
+                        placeholder="Nama anda" 
+                        class="w-full bg-slate-200 text-educourse p-3 rounded-md focus:outline-none focus:ring-educourse
+                        focus:ring-1 focus:border-educourse">
+                    </div>
+
+                    <div class="w-full px-4 mb-8">
+                        <label for="email" class="text-base text-educourse">
+                            Email
+                        </label>
+                        <input type="email" 
+                        id="email_id" 
+                        placeholder="Email anda"
+                        class="w-full bg-slate-200 text-educourse p-3 rounded-md focus:outline-none focus:ring-educourse
+                        focus:ring-1 focus:border-educourse">
+                    </div>
+
+                    <div class="w-full px-4 mb-8">
+                        <label for="subject" class="text-base text-educourse">
+                            Subjek
+                        </label>
+                        <input type="text" 
+                        id="subjects" 
+                        placeholder="Subject"
+                        class="w-full bg-slate-200 text-educourse p-3 rounded-md focus:outline-none focus:ring-educourse
+                        focus:ring-1 focus:border-educourse">
+                    </div>
+
+                    <div class="w-full px-4 mb-8">
+                        <label for="message" class="text-base text-educourse">
+                            Pesan
+                        </label>
+                        <textarea name="message" id="message" 
+                            placeholder="Pesan anda"
+                            class="h-32 w-full rounded-md bg-slate-200 p-3 text-educourse focus:border-educourse 
+                            focus:outline-none focus:ring-educourse" cols="30" rows="10">
+                        </textarea>
+                    </div>
+
+                    <div class="w-full px-4">
+                        <button class="text-base font-semibold text-white 
+                        bg-educourse py-3 px-8 rounded-full w-full transition 
+                        duration-500 hover:opacity-80 hover:shadow-lg" 
+                        onclick="SendMail()">
+                            Kirim
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+    <!-- Contact End -->
+
+    <!-- Footer Start -->
+    <footer class="bg-educourse pt-24 pb-12">
+        <div class="container">
+            <div class="flex flex-wrap">
+                <div class="w-full px-4 mb-12 text-white font-medium md:w-1/3">
+                    <h2 class="font-bold text-4xl text-white mb-5">Mr Sindhu Nugroho</h2>
+                    <h3 class="font-bold text-2xl mb-2">Hubungi Kami</h3>
+                    <p>sindhu.educourse@gmail.com</p>
+                    <p>Jl. Empu Tantular No.2, Bandarharjo, Kec. Semarang Utara, Kota Semarang, Jawa Tengah</p>
+                    <p>50175</p>
+                </div>
+
+                <div class="w-full px-4 mb-12 md:w-1/3">
+                    <h3 class="font-semibold text-xl text-white mb-5">Category</h3>
+                    <ul class="text-white">
+                        <li>
+                            <a href="#" class="inline-block text-base hover:text-yellow mb-3">Native Web Programming</a>
+                        </li>
+                        <li>
+                            <a href="#" class="inline-block text-base hover:text-yellow mb-3">ReactJS Programming</a>
+                        </li>
+                        <li>
+                            <a href="#" class="inline-block text-base hover:text-yellow mb-3">Mobile Flutter Programming</a>
+                        </li>
+                        <li>
+                            <a href="#" class="inline-block text-base hover:text-yellow mb-3">Laravel Web Programming</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="w-full px-4 mb-12 md:w-1/3">
+                    <h3 class="font-semibold text-xl text-white mb-5">Links</h3>
+                    <ul class="text-white">
+                        <li>
+                            <a href="#homepage" class="inline-block text-base hover:text-yellow mb-3">Homepage</a>
+                        </li>
+                        <li>
+                            <a href="#about" class="inline-block text-base hover:text-yellow mb-3">About</a>
+                        </li>
+                        <li>
+                            <a href="#blog" class="inline-block text-base hover:text-yellow mb-3">Blog</a>
+                        </li>
+                        <li>
+                            <a href="#media" class="inline-block text-base hover:text-yellow mb-3">Media</a>
+                        </li>
+                        <li>
+                            <a href="#contact" class="inline-block text-base hover:text-yellow mb-3">Contact</a>
+                        </li>
+                        <li>
+                            <a href="/login.html" class="inline-block text-base hover:text-yellow mb-3">Login</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="w-full pt-10 border-t border-slate-800">
+                <div class="flex items-center justify-center mb-5">
+                    <!-- IG -->
+                    <a href="https://www.instagram.com/educourse.id?igsh=aWxzYzZ0Z2Y1cG82" 
+                    target="_blank"
+                    class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-white
+                    hover:border-yellow hover:bg-yellow hover:text-white"
+                    >
+                        <svg role="img" width="20" color="#ffffff" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <title>Instagram</title>
+                            <path d="M7.0301.084c-1.2768.0602-2.1487.264-2.911.5634-.7888.3075-1.4575.72-2.1228 1.3877-.6652.6677-1.075 1.3368-1.3802 2.127-.2954.7638-.4956 1.6365-.552 2.914-.0564 1.2775-.0689 1.6882-.0626 4.947.0062 3.2586.0206 3.6671.0825 4.9473.061 1.2765.264 2.1482.5635 2.9107.308.7889.72 1.4573 1.388 2.1228.6679.6655 1.3365 1.0743 2.1285 1.38.7632.295 1.6361.4961 2.9134.552 1.2773.056 1.6884.069 4.9462.0627 3.2578-.0062 3.668-.0207 4.9478-.0814 1.28-.0607 2.147-.2652 2.9098-.5633.7889-.3086 1.4578-.72 2.1228-1.3881.665-.6682 1.0745-1.3378 1.3795-2.1284.2957-.7632.4966-1.636.552-2.9124.056-1.2809.0692-1.6898.063-4.948-.0063-3.2583-.021-3.6668-.0817-4.9465-.0607-1.2797-.264-2.1487-.5633-2.9117-.3084-.7889-.72-1.4568-1.3876-2.1228C21.2982 1.33 20.628.9208 19.8378.6165 19.074.321 18.2017.1197 16.9244.0645 15.6471.0093 15.236-.005 11.977.0014 8.718.0076 8.31.0215 7.0301.0839m.1402 21.6932c-1.17-.0509-1.8053-.2453-2.2287-.408-.5606-.216-.96-.4771-1.3819-.895-.422-.4178-.6811-.8186-.9-1.378-.1644-.4234-.3624-1.058-.4171-2.228-.0595-1.2645-.072-1.6442-.079-4.848-.007-3.2037.0053-3.583.0607-4.848.05-1.169.2456-1.805.408-2.2282.216-.5613.4762-.96.895-1.3816.4188-.4217.8184-.6814 1.3783-.9003.423-.1651 1.0575-.3614 2.227-.4171 1.2655-.06 1.6447-.072 4.848-.079 3.2033-.007 3.5835.005 4.8495.0608 1.169.0508 1.8053.2445 2.228.408.5608.216.96.4754 1.3816.895.4217.4194.6816.8176.9005 1.3787.1653.4217.3617 1.056.4169 2.2263.0602 1.2655.0739 1.645.0796 4.848.0058 3.203-.0055 3.5834-.061 4.848-.051 1.17-.245 1.8055-.408 2.2294-.216.5604-.4763.96-.8954 1.3814-.419.4215-.8181.6811-1.3783.9-.4224.1649-1.0577.3617-2.2262.4174-1.2656.0595-1.6448.072-4.8493.079-3.2045.007-3.5825-.006-4.848-.0608M16.953 5.5864A1.44 1.44 0 1 0 18.39 4.144a1.44 1.44 0 0 0-1.437 1.4424M5.8385 12.012c.0067 3.4032 2.7706 6.1557 6.173 6.1493 3.4026-.0065 6.157-2.7701 6.1506-6.1733-.0065-3.4032-2.771-6.1565-6.174-6.1498-3.403.0067-6.156 2.771-6.1496 6.1738M8 12.0077a4 4 0 1 1 4.008 3.9921A3.9996 3.9996 0 0 1 8 12.0077"/>
+                        </svg>
+                    </a>
+                    <!-- IG -->
+
+                    <!-- Youtube -->
+                    <a href="https://www.youtube.com/@educourseofficial1908" 
+                    target="_blank"
+                    class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-white
+                    hover:border-yellow hover:bg-yellow hover:text-white">
+                        <svg role="img" width="20" color="#fafafa" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <title>YouTube</title>
+                            <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+                    </a>
+                    <!-- Youtube -->
+
+                    <!-- Website -->
+                    <a href="https://educourse.id/" 
+                    target="_blank"
+                    class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-white
+                    hover:border-yellow hover:bg-yellow hover:text-white">
+                        <svg role="img" width="20" color="#ffffff" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <title>Internet Explorer</title>
+                            <path d="M22.8 7.381c1.125-2.7 1.2-4.95-.15-6.3-1.5-1.499-5.1-1.05-8.924.75h-.45c-2.7 0-5.324.976-7.274 2.7-1.65 1.5-2.85 3.45-3.375 5.625.375-.45 2.475-2.925 4.875-4.275.075 0 .675-.375.675-.375-.075 0-1.2 1.125-1.425 1.35-5.25 5.4-8.324 13.574-5.924 15.973 1.574 1.575 4.424 1.2 7.724-.6 1.425.675 3 .975 4.724.975 2.25 0 4.35-.6 6.15-1.8 1.874-1.2 3.224-3.074 4.05-5.249h-5.85c-.75 1.425-2.475 2.4-4.275 2.4-2.55 0-4.65-2.1-4.724-4.5V13.83h15.298v-.225c0-.375.075-.825.075-1.124 0-1.8-.45-3.525-1.2-5.1zM2.477 22.38c-1.2-1.2-.824-3.524.6-6.299.675 1.875 1.8 3.525 3.225 4.725.45.375.975.75 1.5 1.05-2.4 1.274-4.35 1.5-5.325.524zm15.374-11.398H8.702v-.075c.15-2.325 2.324-4.35 4.874-4.35 2.4 0 4.35 1.875 4.5 4.35v.075zm4.574-4.2c-.45-.75-1.05-1.5-1.725-2.1a11.213 11.213 0 0 0-3.6-2.25c2.4-1.124 4.425-1.274 5.475-.224.825.975.75 2.624-.15 4.574 0 .075 0 .075 0 0 0 .075 0 .075 0 0z"/></svg>
+                    </a>
+                    <!-- Website -->
+                </div>
+
+                <p class="font-medium text-sm text-white text-center">Copyright © Mr Sindhu. All Right Reserved</p>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer End -->
+
+    <!-- Email JS -->
+
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+    (function(){
+      emailjs.init({
+        publicKey: "JKcKFJIYLNpmUooyx",
+      });
+    })();
+    </script>
+
+    <!-- Email JS End -->
+
+    <script src="/dist/js/script.js">
+    </script>
+</body>
+</html>
